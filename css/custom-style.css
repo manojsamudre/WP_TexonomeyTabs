@@ -1,0 +1,300 @@
+/*==============CSS==================*/
+body, body a, body p{
+    font-family:sans-serif;    
+}
+body .vertical-tabs a{
+    text-decoration: none !important;
+}
+body.wp-texonomytabs{
+    background-color: #10324d;
+}
+.wp-texonomytabs .entry .entry-content > *, .wp-texonomytabs .entry .entry-summary > *{
+    max-width: 100%;
+}
+.wp-texonomytabs .site-header, .wp-texonomytabs .entry .entry-header,
+.wp-texonomytabs #comments, .wp-texonomytabs .site-footer .site-info{
+    display: none;
+}
+h1:not(.site-title):before, h2:before {
+    background: #767676;
+    content: "\020";
+    display: block;
+    height: 0px;
+    margin: 0rem 0 !important;
+    width: 0em !important;
+}
+.main-title {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.wp-texonomytabs .entry .entry-content, .wp-texonomytabs .entry .entry-summary{
+    max-width: 100%;
+    margin: 0 10%;
+    padding: 0px 0px;
+}
+
+/*============= Declear Classes and Tags ===========*/
+body h1, h2, body h3, h4, h5, h6{
+    font-weight: 600 !important;
+}
+h1.font-size-jumbo{
+    font-size: 40px;
+    line-height: 1.2;
+}
+h2.font-size-huge{
+    font-size: 34px !important;
+    line-height: 1.2;
+}
+h3.font-size-largest{
+    font-size: 28px;
+    line-height: 1.3;
+}
+h4.font-size-larger{
+    font-size: 24px;
+    line-height: 1.3;
+}
+h5.font-size-large{
+    font-size: 20px;
+    line-height: 1.4;
+}
+h6.font-size-big{
+    font-size: 18px;
+    line-height: 1.625;
+}
+p.font-size-base{
+    font-size: 16px;
+    line-height: 1.625;
+}
+p.font-size-small{
+    font-size: 14px;
+    line-height: 1.625;
+}
+p.font-size-smaller{
+    font-size: 13px;
+    line-height: 1.5;
+}
+p.font-size-smallest{
+    font-size: 12px;
+    line-height: 1.5;
+}
+/*===== text color =====*/
+.brand-black{
+    color: #000000;
+}
+.brand-white{
+    color: #ffffff;
+}
+.gray-white{
+    color: #f6f6f6;
+}
+.gray-lighter{
+    color: #d4d3d8;
+}
+.gray-light{
+    color: #adadad;
+}
+.gray-dark{
+    color: #424242;
+}
+
+/*====== Background Color ======*/
+.brand-white-bg{
+    background-color: #ffffff;
+}
+.gray-white-bg{
+    background-color: #f6f6f6;
+}
+/*============Gap============*/
+.gap-1{
+    margin:5px;
+}
+.gap-2{
+    margin:10px;
+}
+.gap-3{
+    margin:15px !important; 
+}
+.gap-4{
+    margin:20px;    
+}
+/*===== Border Radious ====*/
+.br-3{
+    border-radius:3px;
+}
+.br-5{
+    border-radius: 5px;
+}
+.br-50{
+    border-radius:50%;  
+}
+/*======Bottom Gap =======*/
+.p-large-gap{
+    margin-bottom: 1em;
+}
+/*****Padding******/
+.pad-4{
+    padding:15px; 
+}
+.gap-y-3{
+    margin-bottom: 15px;
+}
+/*********Font Weight*************/
+.font-regular{
+    font-weight: 400 !important;
+}
+.font-bold{
+    font-weight: 700;
+}
+
+/*=========== Vertical Tabs =================*/
+ .vertical-tabs{
+    font-size:15px;
+    padding:10px;
+    color:#000;
+    line-height: 0;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+ .vertical-tabs .nav-tabs .nav-link{
+    outline: 0px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    box-shadow: 1px 1px 3px 0px #80808066;
+    outline: 0px;
+}
+ .vertical-tabs .tab-content>.active{
+    background: #fff;
+    line-height: 0;
+    width: 100%;
+    min-height: 382px;
+    float: left;
+}
+ .vertical-tabs .nav.nav-tabs{
+    border-bottom: 0;
+    display: inline-grid;
+    float: left;
+    z-index: 9999;
+    width: 26%;    
+}
+.vertical-tabs .sv-tab-panel{
+    margin-top: 70px;
+}
+.tab-content {
+    float: left;
+    width: 74%;
+    line-height: 0;
+    overflow: hidden;
+}
+.vertical-tabs ul{
+    padding: 50px 0px;
+}
+.vertical-tabs ul, .vertical-tabs .tab-content {
+    max-height: 382px;
+}
+.nav-tabs>li>a{
+    margin-right: 0;
+    line-height: initial;
+    border: 0px solid transparent;
+    border-radius: 0;
+}
+.nav>li>a:hover{
+    background-color: inherit;
+}
+.nav>li.nav-item>a.nav-link>img{
+    width: 44px;
+    margin-right: 10px;
+}
+.carousel-inner .item {
+    text-align: center;
+}
+.carousel-control.right, .carousel-control.left{
+    background-image:none;
+}
+div#myCarousel {
+    width: 50%;
+    float: left;
+    height: -webkit-fill-available;
+    background-color: #63b4c9;
+}
+.cat-img{
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.carousel-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+.cat-img img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.carousel-inner h5 > span{
+    background-color: #5699aa;
+    padding: 3px 8px;
+    text-transform: uppercase;
+}
+/******Mobile css***/
+.cpanel-body {
+    line-height: 1;
+    width: 100%;
+}
+#accordion div#myCarousel{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #63b4c9e3, #63b4c9c7), url(../../../../wp-content/uploads/2019/07/DL-Technology.jpg);
+    background-size: cover;
+}
+.collapse.in {
+    display: inline-block;
+    width: 100%;
+}
+a.accordion-toggle.gray-dark{
+    outline: 0;
+    text-decoration: none;
+    color: #424242;
+}
+.vertical-tabs #accordion .sv-tab-panel {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#accordion .panel{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+#accordion h3.font-size-largest {
+    font-size: 22px;
+    line-height: 1.3;
+}
+#accordion a.brand-white {
+    color: #fff;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #63b4c9;
+    margin: 0 auto;
+}
+.cpanel-heading .accordion-toggle:after {
+    content: "";
+    float: right;
+    background-image: url(../../../../wp-content/uploads/2019/07/plus-01.png);
+    width: 26px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 19px;
+}
+.cpanel-heading .accordion-toggle.collapsed:after {
+    background-image: url(../../../../wp-content/uploads/2019/07/minus-01.png);
+}
+
+@media only screen and (max-width: 420px){
+  .titulo{font-size: 22px}
+}
+@media only screen and (max-width: 325px){
+  .vertical-tabs{ padding:8px;}
+}
+
